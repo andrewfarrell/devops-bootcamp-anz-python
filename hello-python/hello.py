@@ -5,7 +5,7 @@ from flask import Flask
 
 app = Flask(__name__)
 my_uuid = str(uuid.uuid1())
-ORANGE = "#fa5a00""
+ORANGE = "#fa5a00"
 GREEN = "#33CC33"
 
 COLOR = ORANGE
