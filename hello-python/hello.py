@@ -17,13 +17,15 @@ def hello():
     global counter
     global color
     counter += 1
-    Color += 1
+
+#    COLOUR += 1
 #    if counter %2 == 0:
 #        COLOR = GREEN
 #    else:
 #        COLOR = BLUE
 #    
 #    return """
+
     <html>
     <body bgcolor="{}">
 
