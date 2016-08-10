@@ -5,10 +5,10 @@ from flask import Flask
 
 app = Flask(__name__)
 my_uuid = str(uuid.uuid1())
-BLUE = "#0099FF"
+ORANGE = "#fa5a00""
 GREEN = "#33CC33"
 
-COLOR = BLUE
+COLOR = ORANGE
 counter = 0 
 
 
@@ -19,13 +19,13 @@ def hello():
     if counter %2 == 0:
         COLOR = GREEN
     else:
-        COLOR = BLUE
+        COLOR = ORANGE
     
     return """
     <html>
     <body bgcolor="{}">
 
-    <center><h1><font color="pink">Hi, I'm GUID:<br/>
+    <center><h1><font color="black">Hi, I'm GUID:<br/>
     {}</br>
     
     <br>
