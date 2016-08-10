@@ -16,12 +16,12 @@ counter = 0
 def hello():
     global counter
     counter += 1
-    if counter %2 == 0:
-        COLOR = GREEN
-    else:
-        COLOR = BLUE
-    
-    return """
+#    if counter %2 == 0:
+#        COLOR = GREEN
+#    else:
+#        COLOR = BLUE
+#    
+#    return """
     <html>
     <body bgcolor="{}">
     <center><h1><font color="pink">Hi, I'm GUID:<br/>
