@@ -5,27 +5,29 @@ from flask import Flask
 
 app = Flask(__name__)
 my_uuid = str(uuid.uuid1())
-ORANGE = "#fa5a00"
-GREEN = "#33CC33"
+#BLUE = "#0099FF"
+#GREEN = "#33CC33"
 
-COLOR = ORANGE
+COLOR = "#000000"
 counter = 0 
 
 
 @app.route('/')
 def hello():
     global counter
+    global color
     counter += 1
-    if counter %2 == 0:
-        COLOR = GREEN
-    else:
-        COLOR = ORANGE
-    
-    return """
+    Color += 1
+#    if counter %2 == 0:
+#        COLOR = GREEN
+#    else:
+#        COLOR = BLUE
+#    
+#    return """
     <html>
     <body bgcolor="{}">
 
-    <center><h1><font color="black">Hi, I'm GUID:<br/>
+    <center><h1><font color="pink">Hi, I'm Andrew Farrell's awesome app":<br/>
     {}</br>
     
     <br>
